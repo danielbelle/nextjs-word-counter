@@ -118,46 +118,46 @@ export default function Home() {
     function setTallyWords(tallies) {
       tallies.forEach((tally) => {
         let li = document.createElement("li")
+
         let span1 = document.createElement("span")
         span1.textContent = tally[0]
         let span2 = document.createElement("span")
         span2.textContent = tally[1] + " , " + tally[2] + "%"
         li.appendChild(span1)
         li.appendChild(span2)
+
         keywordsListElement.appendChild(li)
       });
     }
-
     /*
         let hue = 0
         setInterval(() => {
           hue += 1
           document.querySelector("textarea").style.setProperty("--color", `hsl(${hue},50%,50%)`)
           document.querySelector("#stats").style.setProperty("--color", `hsl(${hue},50%,50%)`)
-        }, 100)
+        }, 1500)
     */
   })
 
   return (
-    <div id="container" className="">
-      <textarea id="" className="" cols="30" rows="10" placeholder="Start Writing..."></textarea>
-      <div id="stats">
-        <h2>Statics</h2>
-        <hr />
-        <div>
-          <h4>Number of Letters: </h4><p id="letters-stat">0</p>
-          <h4>Number of Words: </h4><p id="words-stat">0</p>
-          <h4>Number of Sentences: </h4><p id="sentences-stat">0</p>
-          <h4>Number of Paragraphs: </h4><p id="paragraphs-stat">0</p>
+    <div id="container" className="w-[100vw] grid-rows-2 h-[100vh] grid items-center justify-center lg:grid-cols-10 lg:grid-rows-1 overflow-y-scroll">
+      <textarea id="" className="col-span-7 w-[90%] h-[85%] bg-[#eee] resize-none overflow-y-scroll rounded-[10px] border-solid border-[3px] border-black outline-none p-[10px] text-black text-[10px] lg:col-span-7 row-span-1 m-auto" cols="30" rows="10" placeholder="Start Writing..." />
+
+      <div id="stats" className="lg:col-span-3 row-span-2 border-solid bg-[#eee] border-[3px] rounded-[10px] text-black lg:h-auto tracking-[1.1px] divide-y-2 justify-center items-center m-auto w-[500px] lg:w-[85%] px-[5px] lg:pl-1 lg:px-0 mt-[47px]">
+        <h2 className="flex justify-center lg:text-xl font-bold">Statics</h2>
+        <div className="flex flex-col">
+          <h4 className="m-[0px] p-[10px] w-fit text-sm lg:text-lg">N° of Letters: <p className="inline text-sm lg:text-lg" id="letters-stat">0</p></h4>
+          <h4 className="m-[0px] p-[10px] w-fit text-sm lg:text-lg">N° of Words: <p className="inline text-sm lg:text-lg" id="words-stat">0</p></h4>
+          <h4 className="m-[0px] p-[10px] w-fit text-sm lg:text-lg">N° of Sentences: <p className="inline text-sm lg:text-lg" id="sentences-stat">0</p></h4>
+          <h4 className="m-[0px] p-[10px] w-fit text-sm lg:text-lg">N° of Paragraphs: <p className="inline text-sm lg:text-lg" id="paragraphs-stat">0</p></h4>
         </div>
-        <hr />
-        <div>
-          <h4>Reading time: </h4><p id="reading-time-stat">0 mins</p>
-          <h4>Speaking time: </h4><p id="speaking-time-stat">0 mins</p>
+        <div className="flex flex-col">
+          <h4 className="text-sm m-[0px] p-[10px] w-fit lg:text-lg">Reading time: <p className="inline text-sm lg:text-lg" id="reading-time-stat">0 mins</p></h4>
+          <h4 className="m-[0px] p-[10px] w-fit lg:text-lg text-sm">Speaking time: <p className="inline text-sm lg:text-lg" id="speaking-time-stat">0 mins</p></h4>
+          <h3 className="flex justify-center my-2 lg:text-xl pt-3 font-bold">Keywords</h3>
         </div>
-        <hr />
-        <h3>Keywords</h3>
-        <ul id="keyword-list" className=""></ul>
+
+        <ul id="keyword-list" className="flex flex-col p-[0px]  overflow-y-scroll pt-2"></ul>
       </div>
     </div>
   );
