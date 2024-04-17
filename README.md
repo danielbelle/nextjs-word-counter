@@ -1,9 +1,9 @@
 # Contador de letras, palavras, frases e parágrafos.
 
-O objetivo deste projeto é contabilizar a quantidade de letras, palavras, frases e parágrafos de um texto que o usuário adicionar, além de apresentar a quantidade de tempo que leva para ler, para falar e porcentagem de palavras mais frequentes deste texto
+O objetivo deste projeto é contabilizar a quantidade de letras, palavras, frases e parágrafos de um texto que o usuário adicionar, além de apresentar a quantidade de tempo que leva para ler, para falar e porcentagem de palavras mais frequentes deste texto.
 
 
-<img src="https://github.com/danielbelle/maze-game-nextjs/blob/main/src/assets/maze-photo.png" alt="Counter" />
+<img src="https://github.com/danielbelle/nextjs-word-counter/blob/main/src/app/proj-counter.png" alt="Counter" />
 
 
 ### Tecnologias Utilizadas
@@ -54,25 +54,8 @@ Você também pode fazer deploy gratuito do projeto no site [Vercel](https://ver
 Utilização e manipulação de strings.
 
 
-### Utilização do Next.js
-classes
+## ⏭️ Próximos passos: 
 
-### Converter projetos em Next.js
-1
+### Configurar um formato de pesquisar e substituir palavras;
 
-
-## ⚠️ Problemas enfrentados |||| [EM CONSTRUÇÃO]
-
-a
-
-
-### Como gerar automaticamente o labirinto: 
-Depth-first Search
-* Como solucionar: M
-
-
-## ⏭️ Próximos passos: |||| [EM CONSTRUÇÃO]
-
-### 
-
-### 
+### Criar um conversor de caracteres, estilo codificação;
