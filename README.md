@@ -1,34 +1,25 @@
-# Jogo do Labirinto com Algoritmo Busca em Profundidade (Depth-First Search)
+# Contador de letras, palavras, frases e parágrafos.
 
-O objetivo deste projeto é construir um jogo de labirinto. Onde o próprio jogo gera o labirinto e o usuário deve encontrar o ponto de saída.
+O objetivo deste projeto é contabilizar a quantidade de letras, palavras, frases e parágrafos de um texto que o usuário adicionar, além de apresentar a quantidade de tempo que leva para ler, para falar e porcentagem de palavras mais frequentes deste texto
 
-Para desenvolvê-lo, tomei como base 3 exemplos que encontrei:
 
-- Gerador do labirinto utilizando o Algoritmo JavaScript simples [Depth-First Search vídeo](https://www.youtube.com/watch?v=UnKvDZ7wqUY);
-- Maze Generator com painel de controles em JavaScript simples [vídeo](https://www.youtube.com/watch?v=RrpFqVBLlmI);
-- Modelo de estilo CSS e modo de jogar em JavaScript simples [vídeo](https://www.youtube.com/shorts/DLu3sh4wWxg).
-
-E tomei o desafio de juntar o melhor dos três, algoritmo gerador de labirinto, painel de controles do jogo e modo de jogar, respectivamente. Além disso, dei um passo além e resolvi compilar utilizando o framework Next.js em vez de utilizar JavaScript simples (index.html, style.css e script.js).
-
-<img src="https://github.com/danielbelle/maze-game-nextjs/blob/main/src/assets/maze-photo.png" alt="Maze" />
+<img src="https://github.com/danielbelle/maze-game-nextjs/blob/main/src/assets/maze-photo.png" alt="Counter" />
 
 
 ### Tecnologias Utilizadas
 
-Neste projeto utilizei Next.js, React, Tailwind CSS, JavaScript e React Icons.
+Neste projeto utilizei Next.js, React, Tailwind CSS e JavaScript.
 
 - [Next.js](https://nextjs.org/)
 - [React](https://react.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [React Icons](https://react-icons.github.io/react-icons/)
 
 ## Dependências e Versões Necessárias
 
 - Next.js - Versão: 14.1.4
 - React - Versão: 18+
 - Tailwind CSS - Versão: 3.3.0
-- React Icons - Versão: 5.0.1+
 
 ## Como rodar o projeto ✅
 
@@ -57,10 +48,11 @@ http://localhost:3000
 Você também pode fazer deploy gratuito do projeto no site [Vercel](https://vercel.com/) seguindo este [tutorial](https://www.youtube.com/watch?v=e_92Fz99q18).
 
 
-## 🧠 Habilidades, conhecimentos e experiências retidas |||| [EM CONSTRUÇÃO]
+## 🧠 Habilidades, conhecimentos e experiências retidas 
 
-### Depth-First Search
-1
+### Manipulação de strings.
+Utilização e manipulação de strings.
+
 
 ### Utilização do Next.js
 classes
