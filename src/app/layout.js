@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <link rel="shortcut icon" href="/src/app/favicon.ico" />
+        <link rel="icon" href="/public/favicon.ico" />
       </Head>
       <body className={inter.className + " bg-[#fff] m-0"}>{children}</body>
     </html>
